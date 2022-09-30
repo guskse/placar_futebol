@@ -1,0 +1,58 @@
+body{
+    font-size:large;
+    background-image:url(estadio.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+.placa{
+    color:whitesmoke;
+    padding:20px;
+    border:3px solid white;
+    width:230px;
+    height:230px;
+    text-align:center;
+    background-color:rgb(5, 49, 5);
+    margin:200px auto 0 auto;
+}
+
+.contador_gol{
+    border:1px white solid;
+    padding:5px 15px;
+    background-color:black;
+    font-size:45px;
+    display:inline;
+}
+
+.btn{
+    display:block;
+    margin: 25px auto 20px auto;
+    border:none;
+    padding:10px;
+    background-color:whitesmoke;
+    font-size:20px;
+    border-radius:15px;
+    width:100px;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color:yellow;
+}
+
+
+.wrap-content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#reset:hover{
+  background-color:blue;
+}
+
+#reset.btn{
+    width:200px;
+}
